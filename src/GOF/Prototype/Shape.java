@@ -1,4 +1,4 @@
-package GOF.Prototype.Sava;
+package GOF.Prototype;
 
 public abstract class Shape {
     public int x, y;

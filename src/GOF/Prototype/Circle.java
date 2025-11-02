@@ -1,6 +1,6 @@
-package GOF.Prototype.Sava;
+package GOF.Prototype;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
     public float radius;
 
     public Circle(){}
