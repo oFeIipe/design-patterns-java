@@ -1,11 +1,11 @@
 package GOF.Builder;
 
 public interface IRelatorioBuilder {
-    void definirTitulo(String titulo);
-    void definirCabecalho(String autor, String data);
-    void adicionarConteudoCorpo(String paragrafo);
-    void incluirTabelaDeConteudo();
-    void definirRodape(String textoRodape);
+    RelatorioTextoBuilder definirTitulo(String titulo);
+    RelatorioTextoBuilder definirCabecalho(String autor, String data);
+    RelatorioTextoBuilder adicionarConteudoCorpo(String paragrafo);
+    RelatorioTextoBuilder incluirTabelaDeConteudo();
+    RelatorioTextoBuilder definirRodape(String textoRodape);
 
     RelatorioDocumento build();
 }

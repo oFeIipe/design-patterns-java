@@ -10,5 +10,10 @@ public class Main {
                 "Documento title", "Felipe Autor", "lorem", "lorem", "fim");
 
         gerado.exibir();
+
+        RelatorioDocumento gerado2 =  builder.adicionarConteudoCorpo("Ronaldo")
+                .definirTitulo("As aventuras de Ronaldo").build();
+
+        gerado2.exibir();
     }
 }
