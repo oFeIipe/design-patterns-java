@@ -1,4 +1,4 @@
-package GOF.Flyweight;
+package GOF.Flyweight.Exemplo1;
 
 import javax.swing.*;
 import java.awt.*;
